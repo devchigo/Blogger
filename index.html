@@ -25,11 +25,12 @@
         <div class="container">
 
             <a href="" class="logo">
-                <img src="./assets/images/logo.svg" alt="Blog Logo" >
+                <!-- <img src="./assets/images/logo.svg" alt="Blog Logo" > -->
+                Chigozirim
             </a>
 
-            <nav class="navbar" data-navbar>
-                <ul class="navbar">
+            <nav class="navbar" data-navbar> <!--The active class was removed-->
+                <ul class="navbar-list">
                     <li class="navbar-item">
                         <a href="#" class="navbar-link hover:underline" data-nav-link>Home</a>
                     </li>
@@ -48,7 +49,7 @@
 
                     <span class="span">Search</span>
                 </button>
-                <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+                <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler> <!--The active class was removed-->
                     <span class="span one"></span>
                     <span class="span two"></span>
                     <span class="span three"></span>
@@ -58,6 +59,47 @@
             </div>
         </div>
     </header>
+
+    <!-- Search Bar -->
+    <div class="search-bar" data-search-bar>
+        <div class="input-wrapper">
+            <input type="search" placeholder="Search" name="search" class="input-field">
+
+            <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+        </div>
+        <p class="search-bar-text"> Enter your search </p>
+    </div>
+
+    <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+    <main>
+        <article>
+            <!-- Hero -->
+            <section class="section hero" aria-label="home">
+                <h1 class="h1 hero-title">
+                    <strong class="strong">Aloha, welcome :).</strong> See my thoughts, stories and ideas.
+                </h1>
+
+                <div class="wrapper">
+                    <form action="" class="newsletter-form">
+                        <input type="email" name="email_address" placeholder="Your email address" class="email-field">
+
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                    <p class="newsletter-text">
+                        Signup for my newsletter for some insider news ;)
+                    </p>
+
+                </div>
+            </section>
+            </div>
+        </article>
+    </main>
 
 
 
