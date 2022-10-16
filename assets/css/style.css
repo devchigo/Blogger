@@ -209,7 +209,7 @@ body.active{
   background-color: var(--gainsboro);
 }
 .newsletter-form .email-field::placeholder{
-  color: var(--eerie-black);
+  color: var(--eerie-black_60);
 }
 .newsletter-form .btn{
   position: absolute;
@@ -506,24 +506,19 @@ body.active{
 }
 
 
-
-
+/* Recent Post */
 .top-author{
   display: none;
 }
-
 .recent{
   padding-block-start: 15px;
 }
-
 .recent .section-title .strong{
   display: block;
 }
-
 .recent .section-title {
   margin-block-end: 20px;
 }
-
 .recent .btn{
   margin-inline: auto;
   margin-block: 50px 30px;
@@ -534,15 +529,29 @@ body.active{
 /*-----------------------------------*\
   #RECOMMENDED POST
 \*-----------------------------------*/
+.section .recommended {border-block-end: none;}
 
+.recommended .grid-list{
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
 
+.recommended .blog-card{
+  margin-block-end: 5px;
+}
 
 
 
 /*-----------------------------------*\
   #NEWSLETTER
 \*-----------------------------------*/
+.newsletter{
+  padding-block-start: 40px;
+}
 
+.newsletter .section-title{
+  margin-block-end: 25px;
+}
 
 
 
